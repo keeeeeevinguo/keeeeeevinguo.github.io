@@ -1,22 +1,177 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Kevin Guo</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="blurb">
-        <h1>Hi there, I'm Kevin Guo!</h1>
-        <p>Who am I?</p>
-      </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kevin Guo | Computer Science Student at Dartmouth College</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      padding: 50px 0;
+      background-color: #007b5f;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .blurb {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .section {
+      margin: 30px 0;
+    }
+    .section h2 {
+      border-bottom: 2px solid #007b5f;
+      padding-bottom: 10px;
+      color: #007b5f;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 5px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kevin Guo</h1>
+    <p>Junior Computer Science Major at Dartmouth College</p>
+  </header>
+
+  <div class="container">
+    <div class="blurb">
+      <h2>About Me</h2>
+      <p>Hello! I'm Kevin Guo, a Junior at Dartmouth College pursuing a major in Computer Science and a minor in Human-Centered Design. I'm passionate about software development, cybersecurity, and creating innovative tech solutions. Outside of academics, I enjoy freestyle skiing, ice hockey, and basketball.</p>
     </div>
-    <footer>
+
+    <div class="section" id="education">
+      <h2>Education</h2>
+      <h3>Dartmouth College, Hanover, NH</h3>
+      <p><strong>Bachelor of Arts, Computer Science</strong> — Expected Graduation: June 2026 | GPA: 3.89/4.0</p>
+      <p><strong>Relevant Coursework:</strong> Software Design and Implementation (C), Object-Oriented Programming (Java), Discrete Mathematics in Computer Science, Security and Privacy (AWS), Machine Learning and Statistical Data Analysis (Python), Design Thinking</p>
+      <p><strong>Activities:</strong> South House Executive Council, First Year Trips Leader, French Tutor, Kappa Pi Kappa Fraternity, Club Powerlifting</p>
+
+      <h3>St. George’s School, Vancouver, Canada</h3>
+      <p><strong>Graduated with Honours</strong> — June 2022 | GPA: 4.0/4.0</p>
+      <p><strong>Honors/Awards:</strong> BC Achievement Scholarship, USACO Gold</p>
+      <p><strong>Activities:</strong> STEM Club, CS Club, Model UN, Future Science Leaders Program, UCSB Research Mentorship Program</p>
+    </div>
+
+    <div class="section" id="experience">
+      <h2>Relevant Experience</h2>
+
+      <h3>Software Design and Implementation Teaching Assistant</h3>
+      <p><strong>Dartmouth College Department of Computer Science</strong> — September 2023 - Present</p>
       <ul>
-        <li><a href="mailto:kevinguo0518@gmail.com">Email</a></li>
-        <li>
-          <a href="https://github.com/keeeeeevinguo">github.com/keeeeeevinguo</a>
-        </li>
+        <li>Host weekly office hours and answer questions on Slack, offering expert guidance and support.</li>
+        <li>Evaluate and provide feedback on software implementation assignments.</li>
       </ul>
-    </footer>
-  </body>
+
+      <h3>Development Team Intern</h3>
+      <p><strong>Das Intellitech, Shenzhen, China</strong> — July - August 2023</p>
+      <ul>
+        <li>Enhanced communication software efficiency between appliances and central control system using Modbus TCP.</li>
+        <li>Upgraded functionalities including user authentication, alarm management, and operating mode switching.</li>
+      </ul>
+
+      <h3>Research Team Intern</h3>
+      <p><strong>Oriental Fortune Capital, Shenzhen, China</strong> — June - July 2023</p>
+      <ul>
+        <li>Configured VPN and performed security testing, enabling secure remote access for 40+ employees.</li>
+        <li>Optimized company database structure, improving data retrieval times and accuracy for shareholders.</li>
+        <li>Developed program to automate copyright verification for photos, reducing manual effort by 50%.</li>
+      </ul>
+    </div>
+
+    <div class="section" id="projects">
+      <h2>Projects</h2>
+
+      <h3>Web Application Security Solution</h3>
+      <p><strong>June - August 2024</strong></p>
+      <ul>
+        <li>Designed multi-layered cloud security solution using AWS to mitigate SQL Injection, XSS, and DDoS attacks.</li>
+        <li>Utilized AWS services including VPC, WAF, KMS, TLS/SSL, and Cognito for authentication and encryption.</li>
+        <li>Implemented continuous monitoring using AWS CloudWatch, GuardDuty, and Lambda.</li>
+      </ul>
+
+      <h3>Search Engine</h3>
+      <p><strong>March - June 2023</strong></p>
+      <ul>
+        <li>Developed a search engine in C capable of crawling, indexing, and ranking web content with optimized algorithms.</li>
+        <li>Performed rigorous testing to ensure reliable performance.</li>
+      </ul>
+
+      <h3>Bluetooth Beacon App</h3>
+      <p><strong>March - June 2022</strong></p>
+      <ul>
+        <li>Built an iOS app in Swift using Core Bluetooth API to locate Bluetooth devices with directional guidance.</li>
+        <li>Achieved proximity detection accurate to within 0.5 meters.</li>
+      </ul>
+    </div>
+
+    <div class="section" id="leadership">
+      <h2>Leadership & Service</h2>
+
+      <h3>Kappa Pi Kappa Fraternity</h3>
+      <p><strong>Rush Chairman</strong> — November 2023 - Present | <strong>President</strong> — June - August 2024</p>
+      <ul>
+        <li>Led initiatives to boost brotherhood engagement by 50% and recruited the largest rush class in five years.</li>
+        <li>Oversaw a 11-person executive board and managed all house operations.</li>
+      </ul>
+
+      <h3>Coding Pals Foundation</h3>
+      <p><strong>President</strong> — April 2020 - Present</p>
+      <ul>
+        <li>Led and mentored a team of 20+ volunteers, providing coding lessons to students.</li>
+        <li>Organized marketing campaign, reaching over 1,500 students and significantly expanding the foundation's impact.</li>
+      </ul>
+    </div>
+
+    <div class="section" id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Programming Languages:</strong> Java, Python, C, C++, Bash, MySQL</li>
+        <li><strong>Technologies:</strong> AWS, Git, Shell Scripting, VPN Configuration</li>
+        <li><strong>Languages:</strong> English, Mandarin Chinese, French</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>Contact me: <a href="mailto:kevinguo0518@gmail.com">kevinguo0518@gmail.com</a> | <a href="https://github.com/keeeeeevinguo">GitHub</a></p>
+  </footer>
+
+</body>
 </html>
